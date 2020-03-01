@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import Header from './components/layouts/Header';
+import Main from './components/layouts/Main';
 
 const Sections = () => {
   const anchors = ['About', 'Experience', 'Projects'];
@@ -14,6 +15,7 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
+        <Main />
       </div>
     );
   }
