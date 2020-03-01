@@ -167,8 +167,6 @@
   }
 }
 
-.hidden { visibility: hidden;}
-
 .nav-bar {
     padding-top: 40px;
     padding-bottom: 40px;
@@ -193,15 +191,17 @@
 }
 
 .full-options {
-		float: right;
+		float: left;
 		font-size: 16px;
 		color: #2855FF;
 		font-family: 'Roboto';
 		font-weight: 400;
+		background: tan;
 }
 
 .full-options a {
-    margin-left: 40px;
+		padding-left: 10px;
+		display: block;
     float: right;
     color: #808080;
 		text-decoration: none;
@@ -229,10 +229,9 @@
 /* On screens that are 801 or more*/
 @media screen and (min-width: 801px) {
 	.logo {
-	    float: left;
-	    text-align: left;
+	   float: left;
+	   text-align: left;
 	}
-
 	.flex {
 	  display: flex;
 	  flex-wrap: wrap;
@@ -244,15 +243,18 @@
 /* On screens that are 800 or less */
 @media screen and (max-width: 800px) {
 	.logo {
-	    float: center;
-	    text-align: center;
+	   float: center;
+	   text-align: center;
 	}
-
 	.flex {
 	  display: flex;
 		justify-content: center;
 	  flex-wrap: wrap;
 	}
 
-	.full-options { margin-top: -10px; }
+	.full-options {
+		margin-top: -10px;
+		font-size: 2.5vw;
+	}
+	.resume-link { font-size: 2.5vw; padding-right: 10px;}
 }

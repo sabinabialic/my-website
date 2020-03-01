@@ -2,9 +2,6 @@ import React, { Component } from 'react';
 import './Header.css';
 import resume from "../../assets/files/Updated January 2020.pdf";
 
-var MobileMenuStyle = {
-    height: "0px"
-}
 const Anchors = () => {
     const anchorsArr = ["Projects", "Experience", "About"];
     return (anchorsArr.map(item => { return (<a key={item} href={`#${item}`}>{item}</a>) }));
