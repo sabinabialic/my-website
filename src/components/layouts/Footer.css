@@ -4,34 +4,30 @@
 
 .say-hello h1 {
     font-weight: bold;
-    font-size: 24px;
+    font-size: 22px;
     color: #4e4d5a;
 }
 
 .footer-wrapper {
     align-content: center;
-    margin-top: 50px;
+    padding-top: 60px;
 }
 
 .social {
-    margin-top: 25px;
-    width: 70%;
-    height: 40%;
+    width: 100%;
     font-size: 16px;
+    font-family: "Raleway";
 }
 
 .no-underline {
     text-decoration: none !important;
+    padding: 10px;
+    display: inline-block;
 }
 
-.social-icon {
-    margin-right: 10px !important;
-}
+.social-icon { margin-right: 5px !important;}
 
 .created-by {
-    padding-left: 15%;
-    padding-right: 15%;
-    margin-top: 40px;
     font-family: 'Roboto Mono', monospace;
     margin-bottom: 20px;
     font-size: calc(10px + 0.2vw);
@@ -39,27 +35,22 @@
 
 .blue-line {
     background-color: #4895F0;
-    height: 6px;
+    height: 8px;
     width: 100%;
 }
 
-.mobile-footer {
-    visibility: hidden;
-}
-
-.web-footer {
-    visibility: unset;
-}
+.mobile-footer { visibility: hidden;}
+.web-footer { visibility: unset;}
 
 @media (max-width: 800px) {
     .footer-wrapper {
-        margin-top: 200px;
+        margin-top: 250px;
     }
 
     .mobile-footer {
         visibility: unset;
         align-content: center;
-        padding-left: 30%;
+        padding: 10px;
     }
 
     .say-hello {
@@ -67,7 +58,7 @@
     }
 
     .no-underline {
-        font-size: 18px;
+        font-size: 22px;
     }
 
     .web-footer {
