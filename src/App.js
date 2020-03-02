@@ -2,11 +2,15 @@ import React, { Component } from 'react';
 import './App.css';
 import Header from './components/layouts/Header';
 import Main from './components/layouts/Main';
+import Footer from './components/layouts/Footer';
+import ScrollableAnchor from 'react-scrollable-anchor';
 
 const Sections = () => {
-  const anchors = ['About', 'Experience', 'Projects'];
+  //const anchors = ['About', 'Experience', 'Projects'];
+    const anchors = ['About'];
   //const sectionsArray = [<MainPage />, <Experience />, <Projects />];
-  //return (anchors.map((item, index) => { return (<ScrollableAnchor id={item} key={index}><div>{sectionsArray[index]}</div></ScrollableAnchor>) }));
+  const sectionsArray = [<Main />];
+  return (anchors.map((item, index) => { return (<ScrollableAnchor id={item} key={index}><div>{sectionsArray[index]}</div></ScrollableAnchor>) }));
 }
 
 
@@ -15,7 +19,8 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
-        <Main />
+        <Sections />
+        <Footer />
       </div>
     );
   }

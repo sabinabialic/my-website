@@ -199,7 +199,7 @@
 }
 
 .full-options a {
-		padding-left: 10px;
+		padding-left: 20px;
 		display: block;
     float: right;
     color: #808080;
@@ -253,7 +253,7 @@
 
 	.full-options {
 		margin-top: -10px;
-		font-size: 2.5vw;
+		font-size: calc(10px + 1vw);
 	}
-	.resume-link { font-size: 2.5vw; padding-right: 10px;}
+	.resume-link { font-size: calc(10px + 1vw); padding-right: 20px;}
 }
