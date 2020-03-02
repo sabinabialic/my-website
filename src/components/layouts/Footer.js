@@ -6,7 +6,7 @@ export default class Footer extends Component {
         return (
           <div className="footer-wrapper">
             <div className="say-hello">
-              <h1>Say hello, contact me on any of these platforms!</h1>
+              <h1>Say hello and connect me on any of these platforms!</h1>
             </div>
 
             <div className="web-footer">
@@ -69,7 +69,7 @@ export default class Footer extends Component {
                 I built this site using <b>Javascript</b> and <b>React.</b> You can find the source code <a href="https://github.com/sabinabialic/my-website">here</a> ❤
             </div>
 
-            
+
             <div className="blue-line"></div>
           </div >
         )
