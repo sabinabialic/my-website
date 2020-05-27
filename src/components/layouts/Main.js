@@ -13,7 +13,7 @@ export default class MainPage extends Component {
                       <h1>Welcome! <span role="img" aria-label="Hand">👋</span></h1>
                       <p>
                         My name is <b>Sabina Bialic</b> and I am a <b>fourth year </b>
-                        Computer Science student at Carleton University. As a work to
+                        Computer Science student at Carleton University. As I work to
                         complete my BSc, I am currently working as a developer at ESDC
                         in Gatineau, Canada.
                         </p>
