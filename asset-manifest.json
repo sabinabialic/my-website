@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/my-website/static/css/main.d6803c23.chunk.css",
+    "main.js": "/my-website/static/js/main.ed5b1eb7.chunk.js",
+    "main.js.map": "/my-website/static/js/main.ed5b1eb7.chunk.js.map",
+    "runtime-main.js": "/my-website/static/js/runtime-main.0cbcd75a.js",
+    "runtime-main.js.map": "/my-website/static/js/runtime-main.0cbcd75a.js.map",
+    "static/js/2.cb5a2857.chunk.js": "/my-website/static/js/2.cb5a2857.chunk.js",
+    "static/js/2.cb5a2857.chunk.js.map": "/my-website/static/js/2.cb5a2857.chunk.js.map",
+    "index.html": "/my-website/index.html",
+    "precache-manifest.70f6185c476e9ada0edfad642b467658.js": "/my-website/precache-manifest.70f6185c476e9ada0edfad642b467658.js",
+    "service-worker.js": "/my-website/service-worker.js",
+    "static/css/main.d6803c23.chunk.css.map": "/my-website/static/css/main.d6803c23.chunk.css.map",
+    "static/js/2.cb5a2857.chunk.js.LICENSE.txt": "/my-website/static/js/2.cb5a2857.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/my-website/static/media/Roboto-Regular.11eabca2.ttf",
+    "static/media/Updated January 2020.pdf": "/my-website/static/media/Updated January 2020.71b656cb.pdf",
+    "static/media/dp.jpg": "/my-website/static/media/dp.b5e02104.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0cbcd75a.js",
+    "static/js/2.cb5a2857.chunk.js",
+    "static/css/main.d6803c23.chunk.css",
+    "static/js/main.ed5b1eb7.chunk.js"
+  ]
+}
