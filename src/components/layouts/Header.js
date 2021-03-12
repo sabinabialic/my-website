@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Header.css';
-import resume from "../../assets/files/Updated January 2020.pdf";
+import resume from "../../assets/files/Updated March 2021.pdf";
 
 const Anchors = () => {
     const anchorsArr = ["Projects", "Experience", "About"];
