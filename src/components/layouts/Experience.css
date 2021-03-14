@@ -12,9 +12,7 @@
   margin-bottom: 10%;
 }
 
-.top-margin-5 {
-  margin-top: 5%;
-}
+.top-margin-5 {margin-top: 5%;}
 
 .company-esdc {
   cursor: pointer;
@@ -40,17 +38,9 @@
   position: relative;
 }
 
-.company-esdc:hover .overlay-esdc {
-  opacity: 1;
-}
-
-.company-virtamove:hover .overlay-virtamove {
-  opacity: 1;
-}
-
-.company-healthcanada:hover .overlay-healthcanada {
-  opacity: 1;
-}
+.company-esdc:hover .overlay-esdc {opacity: 1;}
+.company-virtamove:hover .overlay-virtamove {opacity: 1;}
+.company-healthcanada:hover .overlay-healthcanada {opacity: 1;}
 
 .overlay-esdc {
   position: absolute;
@@ -148,74 +138,27 @@
   margin-top: 10px;
 }
 
-.text-white h4 {
-  color: white;
-}
+.text-white h4 {color: white;}
+.text-white h5 {color: white;}
+.text-white p {color: rgb(194, 194, 194);}
+.text-black h4 {color: #3c3b48;}
+.text-black h5 {color: #3c3b48;}
+.text-black p {color: rgb(68, 68, 68);}
 
-.text-white h5 {
-  color: white;
-}
+@media (max-width: 800px) {
+  .experience-title {margin-top: 60px;}
 
-.text-white p {
-  color: rgb(194, 194, 194);
-}
-
-.text-black h4 {
-  color: #3c3b48;
-}
-
-.text-black h5 {
-  color: #3c3b48;
-}
-
-.text-black p {
-  color: rgb(68, 68, 68);
-}
-
-@media (max-width: 767px) {
-  .experience-title {
-    margin-top: 40px;
-  }
-
-  .company-esdc {
-    width: 100%;
-  }
-
+  .company-esdc { width: 100%;}
   .company-virtamove {
     width: 100%;
     margin-top: 20px;
   }
+  .company-healthcanada {width: 100%;}
 
-  .company-healthcanada {
-    width: 100%;
-  }
-
-  .company-nxp {
-    width: 100%;
-    margin-top: 20px;
-  }
-
-  .text-white h4 {
-    font-size: 22px;
-  }
-
-  .text-white h5 {
-    font-size: 12px;
-  }
-
-  .text-white p {
-    font-size: 10px;
-  }
-
-  .text-black h4 {
-    font-size: 22px;
-  }
-
-  .text-black h5 {
-    font-size: 12px;
-  }
-
-  .text-black p {
-    font-size: 10px;
-  }
+  .text-white h4 {font-size: 22px;}
+  .text-white h5 {font-size: 12px;}
+  .text-white p {font-size: 10px;}
+  .text-black h4 {font-size: 22px;}
+  .text-black h5 {font-size: 12px;}
+  .text-black p {font-size: 10px;}
 }

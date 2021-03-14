@@ -144,13 +144,9 @@ strong {
 
 /*For screens of 800px or less*/
 @media only screen and (max-width: 800px) {
-  .main-wrapper {
-    width: 70%;
-  }
+  .main-wrapper {width: 70%;}
   .table,
-  .table-cell {
-    display: block;
-  }
+  .table-cell {display: block;}
   .banner-content {
     padding: 0px;
     text-align: center;
@@ -162,7 +158,7 @@ strong {
     font-size: 18px;
   }
   .me {
-    width: 100%;
+    min-width: 80%;
     float: none;
   }
 }
