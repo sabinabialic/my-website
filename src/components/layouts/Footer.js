@@ -6,7 +6,7 @@ export default class Footer extends Component {
         return (
           <div className="footer-wrapper">
             <div className="say-hello">
-              <h1>Say hello and connect me on any of these platforms!</h1>
+              <h1>Say hello and connect with me on any of these platforms!</h1>
             </div>
 
             <div className="web-footer">
