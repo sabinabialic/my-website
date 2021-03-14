@@ -1,25 +1,26 @@
 {
   "files": {
-    "main.css": "/my-website/static/css/main.d6803c23.chunk.css",
-    "main.js": "/my-website/static/js/main.d3a17f76.chunk.js",
-    "main.js.map": "/my-website/static/js/main.d3a17f76.chunk.js.map",
+    "main.css": "/my-website/static/css/main.2f9c33a7.chunk.css",
+    "main.js": "/my-website/static/js/main.56eb6ea5.chunk.js",
+    "main.js.map": "/my-website/static/js/main.56eb6ea5.chunk.js.map",
     "runtime-main.js": "/my-website/static/js/runtime-main.0cbcd75a.js",
     "runtime-main.js.map": "/my-website/static/js/runtime-main.0cbcd75a.js.map",
-    "static/js/2.cb5a2857.chunk.js": "/my-website/static/js/2.cb5a2857.chunk.js",
-    "static/js/2.cb5a2857.chunk.js.map": "/my-website/static/js/2.cb5a2857.chunk.js.map",
+    "static/js/2.0cc56590.chunk.js": "/my-website/static/js/2.0cc56590.chunk.js",
+    "static/js/2.0cc56590.chunk.js.map": "/my-website/static/js/2.0cc56590.chunk.js.map",
     "index.html": "/my-website/index.html",
-    "precache-manifest.c89454dc192306834f86dd1049b7a814.js": "/my-website/precache-manifest.c89454dc192306834f86dd1049b7a814.js",
+    "precache-manifest.28bffead6d784b36f7c0aaec373b57c6.js": "/my-website/precache-manifest.28bffead6d784b36f7c0aaec373b57c6.js",
     "service-worker.js": "/my-website/service-worker.js",
-    "static/css/main.d6803c23.chunk.css.map": "/my-website/static/css/main.d6803c23.chunk.css.map",
-    "static/js/2.cb5a2857.chunk.js.LICENSE.txt": "/my-website/static/js/2.cb5a2857.chunk.js.LICENSE.txt",
+    "static/css/main.2f9c33a7.chunk.css.map": "/my-website/static/css/main.2f9c33a7.chunk.css.map",
+    "static/js/2.0cc56590.chunk.js.LICENSE.txt": "/my-website/static/js/2.0cc56590.chunk.js.LICENSE.txt",
     "static/media/App.css": "/my-website/static/media/Roboto-Regular.11eabca2.ttf",
     "static/media/Updated March 2021.pdf": "/my-website/static/media/Updated March 2021.072f110b.pdf",
-    "static/media/dp.jpg": "/my-website/static/media/dp.b5e02104.jpg"
+    "static/media/dp.jpg": "/my-website/static/media/dp.b5e02104.jpg",
+    "static/media/virtamove.png": "/my-website/static/media/virtamove.028e2b0a.png"
   },
   "entrypoints": [
     "static/js/runtime-main.0cbcd75a.js",
-    "static/js/2.cb5a2857.chunk.js",
-    "static/css/main.d6803c23.chunk.css",
-    "static/js/main.d3a17f76.chunk.js"
+    "static/js/2.0cc56590.chunk.js",
+    "static/css/main.2f9c33a7.chunk.css",
+    "static/js/main.56eb6ea5.chunk.js"
   ]
 }
