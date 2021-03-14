@@ -41,7 +41,7 @@ export default class Experience extends Component {
                         <h4>VirtaMove</h4>
                         <h5>Software Developer Co-op</h5>
                         <p>
-                            May 2019 - September 2019<br></br>
+                            May 2019 - August 2019<br></br>
                             Ottawa, Canada
                         </p>
                       </div>
