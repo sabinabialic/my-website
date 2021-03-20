@@ -1,7 +1,6 @@
 .experience-wrapper {
   width: 80.75%;
   margin: 0 auto;
-  margin-bottom: 10%;
 }
 
 .experience-title {
@@ -11,8 +10,6 @@
   font-weight: 600;
   margin-bottom: 10%;
 }
-
-.top-margin-5 {margin-top: 5%;}
 
 .parent {
   display: grid;
