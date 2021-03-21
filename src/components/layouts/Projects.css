@@ -1,7 +1,6 @@
 .projects-wrapper {
   width: 80.75%;
   margin: 0 auto;
-  margin-bottom: 6%
 }
 
 .projects-title {
@@ -91,7 +90,7 @@ hr {
 .content2 {flex: 2;}
 
 @media (max-width: 800px) {
-  .projects-wrapper {margin-top: 100px;}
+  .projects-wrapper {margin-top: 10%;}
 
   .hiitme-image {
     width: 100%;

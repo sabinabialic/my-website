@@ -1,6 +1,7 @@
 .experience-wrapper {
   width: 80.75%;
   margin: 0 auto;
+  margin-bottom: 10%;
 }
 
 .experience-title {
@@ -130,6 +131,7 @@
 }
 
 .company-desc h4 {
+  font-family: 'Roboto';
   margin-top: 40px;
   font-size: 24px;
   font-weight: 600;
@@ -137,12 +139,14 @@
 }
 
 .company-desc h5 {
-  font-size: 16px;
+  font-family: 'Raleway';
+  font-size: 18px;
   margin-bottom: 0px;
 }
 
 .company-desc p {
-  font-size: 12px;
+  font-family: 'Roboto';
+  font-size: 14px;
   margin-top: 10px;
 }
 
@@ -176,9 +180,9 @@
   .company-healthcanada {width: 100%;}
 
   .text-white h4 {font-size: 22px;}
-  .text-white h5 {font-size: 12px;}
-  .text-white p {font-size: 10px;}
+  .text-white h5 {font-size: 18px;}
+  .text-white p {font-size: 14px;}
   .text-black h4 {font-size: 22px;}
-  .text-black h5 {font-size: 12px;}
-  .text-black p {font-size: 10px;}
+  .text-black h5 {font-size: 18px;}
+  .text-black p {font-size: 14px;}
 }

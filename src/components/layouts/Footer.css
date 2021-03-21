@@ -10,7 +10,7 @@
 
 .footer-wrapper {
     align-content: center;
-    padding-top: 60px;
+    padding-top: 10%;
 }
 
 .social {
@@ -44,7 +44,7 @@
 
 @media (max-width: 800px) {
     .footer-wrapper {
-        margin-top: 250px;
+        margin-top: 5%;
     }
 
     .mobile-footer {
