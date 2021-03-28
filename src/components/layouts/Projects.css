@@ -17,10 +17,7 @@
   display: inline;
 }
 
-.hiitme-image {
-  width: 100%;
-  margin-left: 30px;
-}
+.hiitme-image {width: 100%;}
 
 .project-description {
   display: grid;
@@ -62,7 +59,8 @@ hr {
   margin-right: 10px;
 }
 
-.git-button {
+.action-button {
+  margin: 2%;
 	font-family: "Roboto";
   font-weight: 400;
 	color: white;
@@ -75,13 +73,13 @@ hr {
   margin-bottom: 10%;
 }
 
-.git-button:hover {
+.action-button:hover {
   color: #3c3b48;
   border: 1px #3c3b48 solid;
   background-color: white;
 }
-.git-button-icon {padding: 10px;}
-.git-button-text {padding: 10px;}
+.action-button-icon {padding: 10px;}
+.action-button-text {padding: 10px;}
 
 .col1 { grid-area: 1 / 1 / 2 / 2; }
 .col2 { grid-area: 1 / 2 / 2 / 3; }
@@ -91,11 +89,6 @@ hr {
 
 @media (max-width: 800px) {
   .projects-wrapper {margin-top: 10%;}
-
-  .hiitme-image {
-    width: 100%;
-    margin: 0px;
-  }
 
   hr {visibility: collapse !important;}
 
@@ -124,5 +117,5 @@ hr {
     margin-top: 0px;
   }
 
-  .git-button {left:0%; margin-bottom: 15%;}
+  .action-button {left:0%; margin-bottom: 15%;}
 }
