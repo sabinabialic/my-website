@@ -25,8 +25,8 @@ export default class Projects extends Component {
                             <div className="content1"><hr /></div>
                             <div className="content2">
                                 <p>
-                                    <b>HiitMe</b> is an interval timer mobile app for iOS
-                                    and Android, created using <b>Flutter</b> and <b>Dart</b>.
+                                    <b>HIIT Interval Timer</b> is a customizable interval timer
+                                    mobile app for iOS and Android, created using <b>Flutter</b> and <b>Dart</b>.
                                 </p>
                                 <a class="action-button" href="https://github.com/sabinabialic/interval_timer">
                                 	<span class="action-button-text">Github</span>

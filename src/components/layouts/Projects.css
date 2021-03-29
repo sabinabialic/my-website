@@ -100,22 +100,16 @@ hr {
     grid-column-gap: 0px;
     grid-row-gap: 0px;
   }
+  
   .project-name{margin-left: 0px;}
   .project-type{margin-left: 0px;}
-  .project-description p {text-align: center; margin: 10%; margin-top: 0;}
+  .project-description p {text-align: center; margin: 5%; margin-top: 0;}
   .content {display: block;}
   .content1 {flex: 0;}
   .content2 {flex: auto;}
 
-  .col1 {
-    grid-area: 2 / 1 / 3 / 2;
-    margin-top: -15px;
-  }
+  .col1 {grid-area: 2 / 1 / 3 / 2;}
+  .col2 {grid-area: 1 / 1 / 2 / 2;}
 
-  .col2 {
-    grid-area: 1 / 1 / 2 / 2;
-    margin-top: 0px;
-  }
-
-  .action-button {left:0%; margin-bottom: 15%;}
+  .action-button {left:0%;}
 }
