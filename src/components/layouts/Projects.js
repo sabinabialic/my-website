@@ -32,7 +32,7 @@ export default class Projects extends Component {
                                 	<span class="action-button-text">Github</span>
                                 	<span class="action-button-icon"><i class="fab fa-github" aria-hidden="true"></i></span>
                                 </a>
-                                <a class="action-button" href="https://www.youtube.com/watch?v=MMAfnOEFn6I">
+                                <a class="action-button" href="https://youtu.be/QD5kjTQ-hKQ">
                                 	<span class="action-button-text">App Demo</span>
                                 	<span class="action-button-icon"><i class="fab fa-youtube" aria-hidden="true"></i></span>
                                 </a>
