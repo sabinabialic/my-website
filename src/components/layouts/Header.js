@@ -22,7 +22,7 @@ export default class Header extends Component {
                     </div>
                     <div className="col flex slide-in-blurred-right">
                         <div className="full-options">
-                            <a href={resume}>
+                            <a href={resume} target="_blank"> 
                                 <div className="resume-link">
                                     View Resume
                                 </div>

@@ -28,11 +28,11 @@ export default class Projects extends Component {
                                     <b>HIIT Interval Timer</b> is a customizable interval timer
                                     mobile app for iOS and Android, created using <b>Flutter</b> and <b>Dart</b>.
                                 </p>
-                                <a class="action-button" href="https://github.com/sabinabialic/interval_timer">
+                                <a class="action-button" href="https://github.com/sabinabialic/interval_timer" target="_blank">
                                 	<span class="action-button-text">Github</span>
                                 	<span class="action-button-icon"><i class="fab fa-github" aria-hidden="true"></i></span>
                                 </a>
-                                <a class="action-button" href="https://youtu.be/QD5kjTQ-hKQ">
+                                <a class="action-button" href="https://youtu.be/QD5kjTQ-hKQ" target="_blank">
                                 	<span class="action-button-text">App Demo</span>
                                 	<span class="action-button-icon"><i class="fab fa-youtube" aria-hidden="true"></i></span>
                                 </a>
