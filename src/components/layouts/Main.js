@@ -12,10 +12,10 @@ export default class MainPage extends Component {
               <div className="banner-content slide-in-blurred-left">
                 <h1>Welcome! <span role="img" aria-label="Hand">👋</span></h1>
                 <p>
-                  My name is <b>Sabina Bialic</b> and I am a <b>fourth year </b>
-                  Computer Science student at Carleton University. As I work to
-                  complete my BSc, I am currently working as a developer at ESDC
-                  in Gatineau, Canada.
+                  My name is <b>Sabina Bialic</b> and I recently graduated from
+                  <b> Carleton University</b> with an <b> Honours Bachelor
+                  of Computer Science</b> in the Management and Business Systems 
+                  stream.
                   </p>
               </div>
             </div>

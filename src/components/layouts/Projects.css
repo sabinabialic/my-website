@@ -1,5 +1,5 @@
 .projects-wrapper {
-  width: 80.75%;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -21,8 +21,11 @@
 
 .project-description {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 1fr;
+  grid-template-columns: repeat(5, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+  grid-template-areas:
+    "pic pic desc desc desc"
+    "pic pic btns btns btns";
   grid-column-gap: 0px;
   grid-row-gap: 0px;
   margin-top: 75px;
@@ -63,6 +66,7 @@ hr {
   margin: 2%;
 	font-family: "Roboto";
   font-weight: 400;
+  text-align: center;
 	color: white;
 	font-size: 16px;
 	border-radius: 5px;
@@ -70,7 +74,6 @@ hr {
 	cursor: pointer;
 	display: inline-flex;
   position:relative;
-  margin-bottom: 10%;
 }
 
 .action-button:hover {
@@ -78,17 +81,23 @@ hr {
   border: 1px #3c3b48 solid;
   background-color: white;
 }
+
 .action-button-icon {padding: 10px;}
 .action-button-text {padding: 10px;}
 
-.col1 { grid-area: 1 / 1 / 2 / 2; }
-.col2 { grid-area: 1 / 2 / 2 / 3; }
+.col1 { grid-area: pic; }
+.col2 { grid-area: desc; }
+.col3 {
+  grid-area: btns;
+  margin-left: 90px;
+  justify-content: space-between;
+}
 .content {display: inline-flex;}
-.content1 {flex: 1.5;}
+.content1 {flex: 1;}
 .content2 {flex: 2;}
 
-@media (max-width: 800px) {
-  .projects-wrapper {margin-top: 10%;}
+@media (max-width: 950px) {
+  .projects-wrapper {margin-top: 10%; margin-bottom: 10%;}
 
   hr {visibility: collapse !important;}
 
@@ -96,20 +105,20 @@ hr {
     text-align: center;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas:
+      "desc"
+      "btns"
+      "pic";
     grid-column-gap: 0px;
-    grid-row-gap: 0px;
+    grid-row-gap: 5%;
   }
-  
+  .col3{margin-left: 0;}
+
   .project-name{margin-left: 0px;}
   .project-type{margin-left: 0px;}
-  .project-description p {text-align: center; margin: 5%; margin-top: 0;}
-  .content {display: block;}
+  .project-description p {text-align: center; margin: 0;}
+  .content {display: inline-block;}
   .content1 {flex: 0;}
   .content2 {flex: auto;}
-
-  .col1 {grid-area: 2 / 1 / 3 / 2;}
-  .col2 {grid-area: 1 / 1 / 2 / 2;}
-
-  .action-button {left:0%;}
 }

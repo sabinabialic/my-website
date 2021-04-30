@@ -44,7 +44,7 @@
 
 @media (max-width: 800px) {
     .footer-wrapper {
-        margin-top: 5%;
+        margin-top: auto;
     }
 
     .mobile-footer {
