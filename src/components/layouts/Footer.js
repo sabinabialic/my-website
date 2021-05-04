@@ -67,7 +67,7 @@ export default class Footer extends Component {
 
             <div className="created-by">
                 I built this site using <b>Javascript</b> and <b>React.</b>
-                You can find the source code <a href="https://github.com/sabinabialic/my-website" target="_blank">here</a> ❤
+                You can find the source code <a href="https://github.com/sabinabialic/website" target="_blank">here</a>.
             </div>
 
 
